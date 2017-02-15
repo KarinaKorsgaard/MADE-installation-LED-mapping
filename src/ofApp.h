@@ -2,10 +2,10 @@
 
 #include "ofMain.h"
 #include "ofxAutoReloadedShader.h"
-#include "ofxPostProcessing.h"
 #include "ofxGui.h"
 #include "ofxOsc.h"
 #include "ofxXmlSettings.h"
+#include "ofxArtNet.h"
 
 #define ledSpacing 1
 
@@ -39,7 +39,6 @@ class ofApp : public ofBaseApp{
     ofFbo fbo;
     vector<LEDstrip>strips;
     ofxAutoReloadedShader shader;
-    ofxPostProcessing post;
     ofxXmlSettings config;
     
     ofxOscSender sender;
@@ -47,7 +46,7 @@ class ofApp : public ofBaseApp{
     bool mouseDown;
     
     ofxPanel gui;
-    ofParameter<float>u_01,u_02,u_03,u_04;
+    ofParameter<float>u_01,u_02;
     ofParameter<ofColor>u_color;
     bool debug;
     

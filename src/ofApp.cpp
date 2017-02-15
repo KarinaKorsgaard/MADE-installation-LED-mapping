@@ -15,53 +15,51 @@ void ofApp::setup(){
     
     shader.load("glow");
     
+    // setup gui
     ofParameterGroup g;
-    g.add(u_01.set("u_01",0.,0.,10.));
-    g.add(u_02.set("u_02",0.,0.,10.));
-    g.add(u_03.set("u_03",0.,0.,10.));
-    g.add(u_04.set("u_04",0.,0.,10.));
+    g.add(u_01.set("amount",0.001,0.0,10.));
+    g.add(u_02.set("speed",0.,0.,10.));
     g.add(u_color.set("u_color",ofColor(255,255,255),ofColor(0,0,0),ofColor(255,255,255)));
-    
     gui.setup(g);
-    
     gui.loadFromFile("settings.xml");
     
+    // load led strip positions from xml
     config.loadFile("config.xml");
     for(int i = 0; i<strips.size();i++){
-        
-        
         config.pushTag("strip"+ofToString(i));
         strips[i].pos.x = config.getValue("x", 0,0);
         strips[i].pos.y = config.getValue("y", 0,0);
         strips[i].rotation = config.getValue("rotation", 0,0);
         config.popTag();
-
     }
     
+    // setup osc sender
     sender.setup("localhost", 5000);
+    
+    
+    debug = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
+    ofSetWindowTitle(ofToString(ofGetFrameRate(),1));
+    
+    // draw to framebuffer. Here we can draw anything. Atm im just using the glow shader. This could also be a video, image or whatever.
     fbo.begin();
     
     shader.begin();
     shader.setUniform1f("iGlobalTime", ofGetElapsedTimef());
     shader.setUniform2f("iResolution", fbo.getWidth(),fbo.getHeight());
-    
     shader.setUniform1f("u_01", u_01);
     shader.setUniform1f("u_02", u_02);
-    shader.setUniform1f("u_03", u_03);
-    shader.setUniform1f("u_04", u_04);
     shader.setUniform3f("u_color", ofVec3f(u_color->r/255.0f,u_color->g/255.0f,u_color->b/255.0f));
     fbo.draw(0, 0);
-    
     shader.end();
-
     
     fbo.end();
     
+    // read fbo pixelvalues to led-strip data
     ofPixels pix;
     fbo.readToPixels(pix);
     for(int u = 0; u<strips.size();u++){
@@ -74,9 +72,6 @@ void ofApp::update(){
             strips[u].data[i*3+3]=rgbw.white;
         }
     }
-    
-    ofSetWindowTitle(ofToString(ofGetFrameRate(),1));
-    
     
     // send osc messages:
     for(int i = 0;i<strips.size();i++){
@@ -93,30 +88,27 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-    ofBackground(0);
-    
+    ofBackground(255);
     if(debug){
+        // draw raw fbo
         fbo.draw(fbo.getWidth()*10, 0,fbo.getWidth()*10,fbo.getHeight()*10);
-        
         ofPushStyle();
-        
         ofFill();
         
+        // draw each led
         for(auto s: strips){
+            ofSetColor(ofColor::black);
+            ofRectangle r = ofRectangle(s.pos.x-1,s.pos.y,7,5*s.num_leds+s.num_leds*ledSpacing);
+            ofDrawRectangle(r);
             for(int i = 0; i<s.num_leds;i++){
-                ofFill();
                 ofSetColor(s.data[i*3] , s.data[i*3+1] , s.data[i*3+2], s.data[i*3+3] );
                 ofDrawRectangle(s.pos.x, s.pos.y+i*5 + i*ledSpacing,5,5);
             }
-            ofSetColor(ofColor::black);
-            ofNoFill();
-            ofRectangle r = ofRectangle(s.pos.x-1,s.pos.y,7,5*s.num_leds);
-            ofDrawRectangle(r);
-            
         }
         ofPopStyle();
     }
     
+    // draw gui
     gui.draw();
 }
 
@@ -137,12 +129,14 @@ void ofApp::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
+    
+    // change position of led strip
     if(mouseDown){
         for(int i = 0; i<strips.size();i++){
             ofRectangle r = ofRectangle(strips[i].pos.x-2,strips[i].pos.y,9,5*strips[i].num_leds);
             if(r.inside(x, y))moving=i;
         }
-        if(moving!=-1)strips[moving].pos = ofVec2f(x,y);
+        if(moving!=-1)strips[moving].pos = ofVec2f(x,y-strips[moving].pos.y);
     }
 }
 
@@ -155,6 +149,8 @@ void ofApp::mousePressed(int x, int y, int button){
 void ofApp::mouseReleased(int x, int y, int button){
     mouseDown = false;
     moving = -1;
+    
+    // save new position to config.xml
     config.clear();
     for(int i =0; i<strips.size();i++){
         config.addTag("strip"+ofToString(i));

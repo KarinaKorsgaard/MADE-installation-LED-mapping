@@ -13,31 +13,16 @@
 		215DA3A51E54DBC000388CF4 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3A01E54DBC000388CF4 /* tinyxml.cpp */; };
 		215DA3A61E54DBC000388CF4 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3A21E54DBC000388CF4 /* tinyxmlerror.cpp */; };
 		215DA3A71E54DBC000388CF4 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3A31E54DBC000388CF4 /* tinyxmlparser.cpp */; };
-		21E4A0D61E48AD2A00DEDBC1 /* BleachBypassPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0A31E48AD2A00DEDBC1 /* BleachBypassPass.cpp */; };
-		21E4A0D71E48AD2A00DEDBC1 /* BloomPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0A51E48AD2A00DEDBC1 /* BloomPass.cpp */; };
-		21E4A0D81E48AD2A00DEDBC1 /* ContrastPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0A71E48AD2A00DEDBC1 /* ContrastPass.cpp */; };
-		21E4A0D91E48AD2A00DEDBC1 /* ConvolutionPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0A91E48AD2A00DEDBC1 /* ConvolutionPass.cpp */; };
-		21E4A0DA1E48AD2A00DEDBC1 /* DofAltPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0AB1E48AD2A00DEDBC1 /* DofAltPass.cpp */; };
-		21E4A0DB1E48AD2A00DEDBC1 /* DofPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0AD1E48AD2A00DEDBC1 /* DofPass.cpp */; };
-		21E4A0DC1E48AD2A00DEDBC1 /* EdgePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0AF1E48AD2A00DEDBC1 /* EdgePass.cpp */; };
-		21E4A0DD1E48AD2A00DEDBC1 /* FakeSSSPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0B11E48AD2A00DEDBC1 /* FakeSSSPass.cpp */; };
-		21E4A0DE1E48AD2A00DEDBC1 /* FxaaPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0B31E48AD2A00DEDBC1 /* FxaaPass.cpp */; };
-		21E4A0DF1E48AD2A00DEDBC1 /* GodRaysPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0B51E48AD2A00DEDBC1 /* GodRaysPass.cpp */; };
-		21E4A0E01E48AD2A00DEDBC1 /* HorizontalTiltShifPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0B71E48AD2A00DEDBC1 /* HorizontalTiltShifPass.cpp */; };
-		21E4A0E11E48AD2A00DEDBC1 /* HsbShiftPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0B91E48AD2A00DEDBC1 /* HsbShiftPass.cpp */; };
-		21E4A0E21E48AD2A00DEDBC1 /* KaleidoscopePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0BB1E48AD2A00DEDBC1 /* KaleidoscopePass.cpp */; };
-		21E4A0E31E48AD2A00DEDBC1 /* LimbDarkeningPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0BD1E48AD2A00DEDBC1 /* LimbDarkeningPass.cpp */; };
-		21E4A0E41E48AD2A00DEDBC1 /* LUTPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0BF1E48AD2A00DEDBC1 /* LUTPass.cpp */; };
-		21E4A0E51E48AD2A00DEDBC1 /* NoiseWarpPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0C11E48AD2A00DEDBC1 /* NoiseWarpPass.cpp */; };
-		21E4A0E61E48AD2A00DEDBC1 /* PixelatePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0C41E48AD2A00DEDBC1 /* PixelatePass.cpp */; };
-		21E4A0E71E48AD2A00DEDBC1 /* PostProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0C61E48AD2A00DEDBC1 /* PostProcessing.cpp */; };
-		21E4A0E81E48AD2A00DEDBC1 /* RenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0C81E48AD2A00DEDBC1 /* RenderPass.cpp */; };
-		21E4A0E91E48AD2A00DEDBC1 /* RGBShiftPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0CA1E48AD2A00DEDBC1 /* RGBShiftPass.cpp */; };
-		21E4A0EA1E48AD2A00DEDBC1 /* RimHighlightingPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0CC1E48AD2A00DEDBC1 /* RimHighlightingPass.cpp */; };
-		21E4A0EB1E48AD2A00DEDBC1 /* SSAOPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0CE1E48AD2A00DEDBC1 /* SSAOPass.cpp */; };
-		21E4A0EC1E48AD2A00DEDBC1 /* ToonPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0D01E48AD2A00DEDBC1 /* ToonPass.cpp */; };
-		21E4A0ED1E48AD2A00DEDBC1 /* VerticalTiltShifPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0D21E48AD2A00DEDBC1 /* VerticalTiltShifPass.cpp */; };
-		21E4A0EE1E48AD2A00DEDBC1 /* ZoomBlurPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E4A0D41E48AD2A00DEDBC1 /* ZoomBlurPass.cpp */; };
+		215DA3C01E550D4000388CF4 /* ofxArtNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3AA1E550D4000388CF4 /* ofxArtNet.cpp */; };
+		215DA3C11E550D4000388CF4 /* ofxArtNetDmxData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3AC1E550D4000388CF4 /* ofxArtNetDmxData.cpp */; };
+		215DA3C21E550D4000388CF4 /* ofxArtNetInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3AE1E550D4000388CF4 /* ofxArtNetInterface.cpp */; };
+		215DA3C31E550D4000388CF4 /* ofxArtNetNodeEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3B01E550D4000388CF4 /* ofxArtNetNodeEntry.cpp */; };
+		215DA3C41E550D4000388CF4 /* artnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3B41E550D4000388CF4 /* artnet.c */; };
+		215DA3C51E550D4000388CF4 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3B71E550D4000388CF4 /* misc.c */; };
+		215DA3C61E550D4000388CF4 /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3B91E550D4000388CF4 /* network.c */; };
+		215DA3C71E550D4000388CF4 /* receive.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3BC1E550D4000388CF4 /* receive.c */; };
+		215DA3C81E550D4000388CF4 /* tod.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3BD1E550D4000388CF4 /* tod.c */; };
+		215DA3C91E550D4000388CF4 /* transmit.c in Sources */ = {isa = PBXBuildFile; fileRef = 215DA3BF1E550D4000388CF4 /* transmit.c */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
 		510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */; };
@@ -107,57 +92,26 @@
 		215DA3A11E54DBC000388CF4 /* tinyxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
 		215DA3A21E54DBC000388CF4 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
 		215DA3A31E54DBC000388CF4 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
-		21E4A0A31E48AD2A00DEDBC1 /* BleachBypassPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BleachBypassPass.cpp; sourceTree = "<group>"; };
-		21E4A0A41E48AD2A00DEDBC1 /* BleachBypassPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BleachBypassPass.h; sourceTree = "<group>"; };
-		21E4A0A51E48AD2A00DEDBC1 /* BloomPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BloomPass.cpp; sourceTree = "<group>"; };
-		21E4A0A61E48AD2A00DEDBC1 /* BloomPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloomPass.h; sourceTree = "<group>"; };
-		21E4A0A71E48AD2A00DEDBC1 /* ContrastPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContrastPass.cpp; sourceTree = "<group>"; };
-		21E4A0A81E48AD2A00DEDBC1 /* ContrastPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContrastPass.h; sourceTree = "<group>"; };
-		21E4A0A91E48AD2A00DEDBC1 /* ConvolutionPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvolutionPass.cpp; sourceTree = "<group>"; };
-		21E4A0AA1E48AD2A00DEDBC1 /* ConvolutionPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvolutionPass.h; sourceTree = "<group>"; };
-		21E4A0AB1E48AD2A00DEDBC1 /* DofAltPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DofAltPass.cpp; sourceTree = "<group>"; };
-		21E4A0AC1E48AD2A00DEDBC1 /* DofAltPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DofAltPass.h; sourceTree = "<group>"; };
-		21E4A0AD1E48AD2A00DEDBC1 /* DofPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DofPass.cpp; sourceTree = "<group>"; };
-		21E4A0AE1E48AD2A00DEDBC1 /* DofPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DofPass.h; sourceTree = "<group>"; };
-		21E4A0AF1E48AD2A00DEDBC1 /* EdgePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgePass.cpp; sourceTree = "<group>"; };
-		21E4A0B01E48AD2A00DEDBC1 /* EdgePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdgePass.h; sourceTree = "<group>"; };
-		21E4A0B11E48AD2A00DEDBC1 /* FakeSSSPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSSSPass.cpp; sourceTree = "<group>"; };
-		21E4A0B21E48AD2A00DEDBC1 /* FakeSSSPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeSSSPass.h; sourceTree = "<group>"; };
-		21E4A0B31E48AD2A00DEDBC1 /* FxaaPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FxaaPass.cpp; sourceTree = "<group>"; };
-		21E4A0B41E48AD2A00DEDBC1 /* FxaaPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FxaaPass.h; sourceTree = "<group>"; };
-		21E4A0B51E48AD2A00DEDBC1 /* GodRaysPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GodRaysPass.cpp; sourceTree = "<group>"; };
-		21E4A0B61E48AD2A00DEDBC1 /* GodRaysPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodRaysPass.h; sourceTree = "<group>"; };
-		21E4A0B71E48AD2A00DEDBC1 /* HorizontalTiltShifPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HorizontalTiltShifPass.cpp; sourceTree = "<group>"; };
-		21E4A0B81E48AD2A00DEDBC1 /* HorizontalTiltShifPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalTiltShifPass.h; sourceTree = "<group>"; };
-		21E4A0B91E48AD2A00DEDBC1 /* HsbShiftPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HsbShiftPass.cpp; sourceTree = "<group>"; };
-		21E4A0BA1E48AD2A00DEDBC1 /* HsbShiftPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HsbShiftPass.h; sourceTree = "<group>"; };
-		21E4A0BB1E48AD2A00DEDBC1 /* KaleidoscopePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KaleidoscopePass.cpp; sourceTree = "<group>"; };
-		21E4A0BC1E48AD2A00DEDBC1 /* KaleidoscopePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaleidoscopePass.h; sourceTree = "<group>"; };
-		21E4A0BD1E48AD2A00DEDBC1 /* LimbDarkeningPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LimbDarkeningPass.cpp; sourceTree = "<group>"; };
-		21E4A0BE1E48AD2A00DEDBC1 /* LimbDarkeningPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LimbDarkeningPass.h; sourceTree = "<group>"; };
-		21E4A0BF1E48AD2A00DEDBC1 /* LUTPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUTPass.cpp; sourceTree = "<group>"; };
-		21E4A0C01E48AD2A00DEDBC1 /* LUTPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUTPass.h; sourceTree = "<group>"; };
-		21E4A0C11E48AD2A00DEDBC1 /* NoiseWarpPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NoiseWarpPass.cpp; sourceTree = "<group>"; };
-		21E4A0C21E48AD2A00DEDBC1 /* NoiseWarpPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoiseWarpPass.h; sourceTree = "<group>"; };
-		21E4A0C31E48AD2A00DEDBC1 /* ofxPostProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPostProcessing.h; sourceTree = "<group>"; };
-		21E4A0C41E48AD2A00DEDBC1 /* PixelatePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PixelatePass.cpp; sourceTree = "<group>"; };
-		21E4A0C51E48AD2A00DEDBC1 /* PixelatePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixelatePass.h; sourceTree = "<group>"; };
-		21E4A0C61E48AD2A00DEDBC1 /* PostProcessing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PostProcessing.cpp; sourceTree = "<group>"; };
-		21E4A0C71E48AD2A00DEDBC1 /* PostProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostProcessing.h; sourceTree = "<group>"; };
-		21E4A0C81E48AD2A00DEDBC1 /* RenderPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RenderPass.cpp; sourceTree = "<group>"; };
-		21E4A0C91E48AD2A00DEDBC1 /* RenderPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderPass.h; sourceTree = "<group>"; };
-		21E4A0CA1E48AD2A00DEDBC1 /* RGBShiftPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RGBShiftPass.cpp; sourceTree = "<group>"; };
-		21E4A0CB1E48AD2A00DEDBC1 /* RGBShiftPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBShiftPass.h; sourceTree = "<group>"; };
-		21E4A0CC1E48AD2A00DEDBC1 /* RimHighlightingPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RimHighlightingPass.cpp; sourceTree = "<group>"; };
-		21E4A0CD1E48AD2A00DEDBC1 /* RimHighlightingPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RimHighlightingPass.h; sourceTree = "<group>"; };
-		21E4A0CE1E48AD2A00DEDBC1 /* SSAOPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SSAOPass.cpp; sourceTree = "<group>"; };
-		21E4A0CF1E48AD2A00DEDBC1 /* SSAOPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAOPass.h; sourceTree = "<group>"; };
-		21E4A0D01E48AD2A00DEDBC1 /* ToonPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToonPass.cpp; sourceTree = "<group>"; };
-		21E4A0D11E48AD2A00DEDBC1 /* ToonPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToonPass.h; sourceTree = "<group>"; };
-		21E4A0D21E48AD2A00DEDBC1 /* VerticalTiltShifPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VerticalTiltShifPass.cpp; sourceTree = "<group>"; };
-		21E4A0D31E48AD2A00DEDBC1 /* VerticalTiltShifPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalTiltShifPass.h; sourceTree = "<group>"; };
-		21E4A0D41E48AD2A00DEDBC1 /* ZoomBlurPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZoomBlurPass.cpp; sourceTree = "<group>"; };
-		21E4A0D51E48AD2A00DEDBC1 /* ZoomBlurPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomBlurPass.h; sourceTree = "<group>"; };
+		215DA3AA1E550D4000388CF4 /* ofxArtNet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxArtNet.cpp; sourceTree = "<group>"; };
+		215DA3AB1E550D4000388CF4 /* ofxArtNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxArtNet.h; sourceTree = "<group>"; };
+		215DA3AC1E550D4000388CF4 /* ofxArtNetDmxData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxArtNetDmxData.cpp; sourceTree = "<group>"; };
+		215DA3AD1E550D4000388CF4 /* ofxArtNetDmxData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxArtNetDmxData.h; sourceTree = "<group>"; };
+		215DA3AE1E550D4000388CF4 /* ofxArtNetInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxArtNetInterface.cpp; sourceTree = "<group>"; };
+		215DA3AF1E550D4000388CF4 /* ofxArtNetInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxArtNetInterface.h; sourceTree = "<group>"; };
+		215DA3B01E550D4000388CF4 /* ofxArtNetNodeEntry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxArtNetNodeEntry.cpp; sourceTree = "<group>"; };
+		215DA3B11E550D4000388CF4 /* ofxArtNetNodeEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxArtNetNodeEntry.h; sourceTree = "<group>"; };
+		215DA3B41E550D4000388CF4 /* artnet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = artnet.c; sourceTree = "<group>"; };
+		215DA3B51E550D4000388CF4 /* artnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = artnet.h; sourceTree = "<group>"; };
+		215DA3B61E550D4000388CF4 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		215DA3B71E550D4000388CF4 /* misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		215DA3B81E550D4000388CF4 /* misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		215DA3B91E550D4000388CF4 /* network.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
+		215DA3BA1E550D4000388CF4 /* packets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packets.h; sourceTree = "<group>"; };
+		215DA3BB1E550D4000388CF4 /* private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		215DA3BC1E550D4000388CF4 /* receive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = receive.c; sourceTree = "<group>"; };
+		215DA3BD1E550D4000388CF4 /* tod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tod.c; sourceTree = "<group>"; };
+		215DA3BE1E550D4000388CF4 /* tod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tod.h; sourceTree = "<group>"; };
+		215DA3BF1E550D4000388CF4 /* transmit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transmit.c; sourceTree = "<group>"; };
 		21E4A0F01E48AE2100DEDBC1 /* glow.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = glow.frag; path = bin/data/glow.frag; sourceTree = SOURCE_ROOT; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
 		280D08C3289D60869BDAF7A6 /* ofxDmx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDmx.h; path = ../../../addons/ofxDmx/src/ofxDmx.h; sourceTree = SOURCE_ROOT; };
@@ -257,71 +211,57 @@
 			path = ../../../addons/ofxXmlSettings/libs;
 			sourceTree = "<group>";
 		};
-		21E4A0A11E48AD2A00DEDBC1 /* ofxPostProcessing */ = {
+		215DA3A81E550D4000388CF4 /* ofxArtNet */ = {
 			isa = PBXGroup;
 			children = (
-				21E4A0A21E48AD2A00DEDBC1 /* src */,
+				215DA3A91E550D4000388CF4 /* src */,
+				215DA3B21E550D4000388CF4 /* libs */,
 			);
-			name = ofxPostProcessing;
+			name = ofxArtNet;
 			sourceTree = "<group>";
 		};
-		21E4A0A21E48AD2A00DEDBC1 /* src */ = {
+		215DA3A91E550D4000388CF4 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				21E4A0A31E48AD2A00DEDBC1 /* BleachBypassPass.cpp */,
-				21E4A0A41E48AD2A00DEDBC1 /* BleachBypassPass.h */,
-				21E4A0A51E48AD2A00DEDBC1 /* BloomPass.cpp */,
-				21E4A0A61E48AD2A00DEDBC1 /* BloomPass.h */,
-				21E4A0A71E48AD2A00DEDBC1 /* ContrastPass.cpp */,
-				21E4A0A81E48AD2A00DEDBC1 /* ContrastPass.h */,
-				21E4A0A91E48AD2A00DEDBC1 /* ConvolutionPass.cpp */,
-				21E4A0AA1E48AD2A00DEDBC1 /* ConvolutionPass.h */,
-				21E4A0AB1E48AD2A00DEDBC1 /* DofAltPass.cpp */,
-				21E4A0AC1E48AD2A00DEDBC1 /* DofAltPass.h */,
-				21E4A0AD1E48AD2A00DEDBC1 /* DofPass.cpp */,
-				21E4A0AE1E48AD2A00DEDBC1 /* DofPass.h */,
-				21E4A0AF1E48AD2A00DEDBC1 /* EdgePass.cpp */,
-				21E4A0B01E48AD2A00DEDBC1 /* EdgePass.h */,
-				21E4A0B11E48AD2A00DEDBC1 /* FakeSSSPass.cpp */,
-				21E4A0B21E48AD2A00DEDBC1 /* FakeSSSPass.h */,
-				21E4A0B31E48AD2A00DEDBC1 /* FxaaPass.cpp */,
-				21E4A0B41E48AD2A00DEDBC1 /* FxaaPass.h */,
-				21E4A0B51E48AD2A00DEDBC1 /* GodRaysPass.cpp */,
-				21E4A0B61E48AD2A00DEDBC1 /* GodRaysPass.h */,
-				21E4A0B71E48AD2A00DEDBC1 /* HorizontalTiltShifPass.cpp */,
-				21E4A0B81E48AD2A00DEDBC1 /* HorizontalTiltShifPass.h */,
-				21E4A0B91E48AD2A00DEDBC1 /* HsbShiftPass.cpp */,
-				21E4A0BA1E48AD2A00DEDBC1 /* HsbShiftPass.h */,
-				21E4A0BB1E48AD2A00DEDBC1 /* KaleidoscopePass.cpp */,
-				21E4A0BC1E48AD2A00DEDBC1 /* KaleidoscopePass.h */,
-				21E4A0BD1E48AD2A00DEDBC1 /* LimbDarkeningPass.cpp */,
-				21E4A0BE1E48AD2A00DEDBC1 /* LimbDarkeningPass.h */,
-				21E4A0BF1E48AD2A00DEDBC1 /* LUTPass.cpp */,
-				21E4A0C01E48AD2A00DEDBC1 /* LUTPass.h */,
-				21E4A0C11E48AD2A00DEDBC1 /* NoiseWarpPass.cpp */,
-				21E4A0C21E48AD2A00DEDBC1 /* NoiseWarpPass.h */,
-				21E4A0C31E48AD2A00DEDBC1 /* ofxPostProcessing.h */,
-				21E4A0C41E48AD2A00DEDBC1 /* PixelatePass.cpp */,
-				21E4A0C51E48AD2A00DEDBC1 /* PixelatePass.h */,
-				21E4A0C61E48AD2A00DEDBC1 /* PostProcessing.cpp */,
-				21E4A0C71E48AD2A00DEDBC1 /* PostProcessing.h */,
-				21E4A0C81E48AD2A00DEDBC1 /* RenderPass.cpp */,
-				21E4A0C91E48AD2A00DEDBC1 /* RenderPass.h */,
-				21E4A0CA1E48AD2A00DEDBC1 /* RGBShiftPass.cpp */,
-				21E4A0CB1E48AD2A00DEDBC1 /* RGBShiftPass.h */,
-				21E4A0CC1E48AD2A00DEDBC1 /* RimHighlightingPass.cpp */,
-				21E4A0CD1E48AD2A00DEDBC1 /* RimHighlightingPass.h */,
-				21E4A0CE1E48AD2A00DEDBC1 /* SSAOPass.cpp */,
-				21E4A0CF1E48AD2A00DEDBC1 /* SSAOPass.h */,
-				21E4A0D01E48AD2A00DEDBC1 /* ToonPass.cpp */,
-				21E4A0D11E48AD2A00DEDBC1 /* ToonPass.h */,
-				21E4A0D21E48AD2A00DEDBC1 /* VerticalTiltShifPass.cpp */,
-				21E4A0D31E48AD2A00DEDBC1 /* VerticalTiltShifPass.h */,
-				21E4A0D41E48AD2A00DEDBC1 /* ZoomBlurPass.cpp */,
-				21E4A0D51E48AD2A00DEDBC1 /* ZoomBlurPass.h */,
+				215DA3AA1E550D4000388CF4 /* ofxArtNet.cpp */,
+				215DA3AB1E550D4000388CF4 /* ofxArtNet.h */,
+				215DA3AC1E550D4000388CF4 /* ofxArtNetDmxData.cpp */,
+				215DA3AD1E550D4000388CF4 /* ofxArtNetDmxData.h */,
+				215DA3AE1E550D4000388CF4 /* ofxArtNetInterface.cpp */,
+				215DA3AF1E550D4000388CF4 /* ofxArtNetInterface.h */,
+				215DA3B01E550D4000388CF4 /* ofxArtNetNodeEntry.cpp */,
+				215DA3B11E550D4000388CF4 /* ofxArtNetNodeEntry.h */,
 			);
 			name = src;
-			path = ../../../addons/ofxPostProcessing/src;
+			path = ../../../addons/ofxArtNet/src;
+			sourceTree = "<group>";
+		};
+		215DA3B21E550D4000388CF4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				215DA3B31E550D4000388CF4 /* artnet */,
+			);
+			name = libs;
+			path = ../../../addons/ofxArtNet/libs;
+			sourceTree = "<group>";
+		};
+		215DA3B31E550D4000388CF4 /* artnet */ = {
+			isa = PBXGroup;
+			children = (
+				215DA3B41E550D4000388CF4 /* artnet.c */,
+				215DA3B51E550D4000388CF4 /* artnet.h */,
+				215DA3B61E550D4000388CF4 /* common.h */,
+				215DA3B71E550D4000388CF4 /* misc.c */,
+				215DA3B81E550D4000388CF4 /* misc.h */,
+				215DA3B91E550D4000388CF4 /* network.c */,
+				215DA3BA1E550D4000388CF4 /* packets.h */,
+				215DA3BB1E550D4000388CF4 /* private.h */,
+				215DA3BC1E550D4000388CF4 /* receive.c */,
+				215DA3BD1E550D4000388CF4 /* tod.c */,
+				215DA3BE1E550D4000388CF4 /* tod.h */,
+				215DA3BF1E550D4000388CF4 /* transmit.c */,
+			);
+			path = artnet;
 			sourceTree = "<group>";
 		};
 		30CB364908817057B430D528 /* osc */ = {
@@ -439,8 +379,8 @@
 				9C10541A7618D99B3938950F /* ofxDmx */,
 				480A780D8D0308AE4A368801 /* ofxGui */,
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
-				21E4A0A11E48AD2A00DEDBC1 /* ofxPostProcessing */,
 				215DA39B1E54DBC000388CF4 /* ofxXmlSettings */,
+				215DA3A81E550D4000388CF4 /* ofxArtNet */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -648,58 +588,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				21E4A0ED1E48AD2A00DEDBC1 /* VerticalTiltShifPass.cpp in Sources */,
+				215DA3C71E550D4000388CF4 /* receive.c in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				215DA3C81E550D4000388CF4 /* tod.c in Sources */,
 				622F2B6B3FFAA37224C22AD2 /* ofxAutoReloadedShader.cpp in Sources */,
 				8BCF02B826253856D7DCF4D1 /* ofxDmx.cpp in Sources */,
 				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
-				21E4A0E21E48AD2A00DEDBC1 /* KaleidoscopePass.cpp in Sources */,
-				21E4A0E11E48AD2A00DEDBC1 /* HsbShiftPass.cpp in Sources */,
-				21E4A0E41E48AD2A00DEDBC1 /* LUTPass.cpp in Sources */,
-				21E4A0DD1E48AD2A00DEDBC1 /* FakeSSSPass.cpp in Sources */,
+				215DA3C01E550D4000388CF4 /* ofxArtNet.cpp in Sources */,
 				215DA3A61E54DBC000388CF4 /* tinyxmlerror.cpp in Sources */,
+				215DA3C51E550D4000388CF4 /* misc.c in Sources */,
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
 				215DA3A51E54DBC000388CF4 /* tinyxml.cpp in Sources */,
+				215DA3C11E550D4000388CF4 /* ofxArtNetDmxData.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				215DA3A71E54DBC000388CF4 /* tinyxmlparser.cpp in Sources */,
-				21E4A0D61E48AD2A00DEDBC1 /* BleachBypassPass.cpp in Sources */,
-				21E4A0DA1E48AD2A00DEDBC1 /* DofAltPass.cpp in Sources */,
+				215DA3C91E550D4000388CF4 /* transmit.c in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
+				215DA3C21E550D4000388CF4 /* ofxArtNetInterface.cpp in Sources */,
 				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
-				21E4A0EE1E48AD2A00DEDBC1 /* ZoomBlurPass.cpp in Sources */,
-				21E4A0E91E48AD2A00DEDBC1 /* RGBShiftPass.cpp in Sources */,
-				21E4A0E01E48AD2A00DEDBC1 /* HorizontalTiltShifPass.cpp in Sources */,
 				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
-				21E4A0DC1E48AD2A00DEDBC1 /* EdgePass.cpp in Sources */,
 				72A929D3561B8232A182ABFC /* ofxOscBundle.cpp in Sources */,
 				5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */,
 				4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */,
-				21E4A0E81E48AD2A00DEDBC1 /* RenderPass.cpp in Sources */,
-				21E4A0EA1E48AD2A00DEDBC1 /* RimHighlightingPass.cpp in Sources */,
 				215DA3A41E54DBC000388CF4 /* ofxXmlSettings.cpp in Sources */,
 				640279EE111671BD026CB013 /* ofxOscReceiver.cpp in Sources */,
-				21E4A0DE1E48AD2A00DEDBC1 /* FxaaPass.cpp in Sources */,
-				21E4A0E51E48AD2A00DEDBC1 /* NoiseWarpPass.cpp in Sources */,
+				215DA3C61E550D4000388CF4 /* network.c in Sources */,
 				8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */,
 				ADE367465D2A8EBAD4C7A8D9 /* IpEndpointName.cpp in Sources */,
-				21E4A0E61E48AD2A00DEDBC1 /* PixelatePass.cpp in Sources */,
 				67FE4C7B15C2F0478C8126C2 /* NetworkingUtils.cpp in Sources */,
-				21E4A0EC1E48AD2A00DEDBC1 /* ToonPass.cpp in Sources */,
-				21E4A0D81E48AD2A00DEDBC1 /* ContrastPass.cpp in Sources */,
-				21E4A0EB1E48AD2A00DEDBC1 /* SSAOPass.cpp in Sources */,
-				21E4A0D71E48AD2A00DEDBC1 /* BloomPass.cpp in Sources */,
+				215DA3C31E550D4000388CF4 /* ofxArtNetNodeEntry.cpp in Sources */,
 				510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */,
-				21E4A0E31E48AD2A00DEDBC1 /* LimbDarkeningPass.cpp in Sources */,
-				21E4A0DB1E48AD2A00DEDBC1 /* DofPass.cpp in Sources */,
-				21E4A0DF1E48AD2A00DEDBC1 /* GodRaysPass.cpp in Sources */,
 				62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */,
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
-				21E4A0E71E48AD2A00DEDBC1 /* PostProcessing.cpp in Sources */,
-				21E4A0D91E48AD2A00DEDBC1 /* ConvolutionPass.cpp in Sources */,
+				215DA3C41E550D4000388CF4 /* artnet.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,6 +752,9 @@
 					../../../addons/ofxOsc/libs/oscpack/src/ip/win32,
 					../../../addons/ofxOsc/libs/oscpack/src/osc,
 					../../../addons/ofxOsc/src,
+					../../../addons/ofxArtNet/libs/artnet,
+					../../../addons/ofxArtNet/libs,
+					../../../addons/ofxArtNe/src,
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -865,6 +793,9 @@
 					../../../addons/ofxOsc/libs/oscpack/src/ip/win32,
 					../../../addons/ofxOsc/libs/oscpack/src/osc,
 					../../../addons/ofxOsc/src,
+					../../../addons/ofxArtNet/libs/artnet,
+					../../../addons/ofxArtNet/libs,
+					../../../addons/ofxArtNe/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
