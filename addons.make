@@ -1,0 +1,4 @@
+ofxAutoReloadedShader
+ofxDmx
+ofxGui
+ofxOsc
