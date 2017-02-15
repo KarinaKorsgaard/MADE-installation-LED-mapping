@@ -14,6 +14,7 @@ struct LEDstrip{
     ofPoint pos;
     float rotation;
     unsigned char data[512];
+    unsigned char rgb_data[512];
     string ip;
 };
 
@@ -47,6 +48,7 @@ class ofApp : public ofBaseApp{
     
     ofxPanel gui;
     ofParameter<float>u_01,u_02;
+    ofParameter<int>redmax,greenmax,bluemax;
     ofParameter<ofColor>u_color;
     bool debug;
     

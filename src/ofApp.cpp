@@ -20,7 +20,13 @@ void ofApp::setup(){
     g.add(u_01.set("amount",0.001,0.0,10.));
     g.add(u_02.set("speed",0.,0.,10.));
     g.add(u_color.set("u_color",ofColor(255,255,255),ofColor(0,0,0),ofColor(255,255,255)));
+    ofParameterGroup colorCorrection;
+    colorCorrection.setName("color correction");
+    colorCorrection.add(redmax.set("red max", 0, 0, 255));
+    colorCorrection.add(greenmax.set("green max", 0, 0, 255));
+    colorCorrection.add(bluemax.set("blue max", 0, 0, 255));
     gui.setup(g);
+    gui.add(colorCorrection);
     gui.loadFromFile("settings.xml");
     
     // load led strip positions from xml
@@ -65,7 +71,7 @@ void ofApp::update(){
     for(int u = 0; u<strips.size();u++){
         for(int i = 0; i<strips[u].num_leds;i++){
             ofColor c = pix.getColor(strips[u].pos.x /10, ( strips[u].pos.y+i*5 + i*ledSpacing ) /10);
-            colorRgbw rgbw = rgbToRgbw(c.r, c.g, c.b);
+            colorRgbw rgbw = rgbToRgbw(c.r, redmax,c.g, greenmax,c.b, bluemax);
             strips[u].data[i*3+0]=rgbw.red;
             strips[u].data[i*3+1]=rgbw.green;
             strips[u].data[i*3+2]=rgbw.blue;
@@ -88,7 +94,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-    ofBackground(255);
+    ofBackground(ofColor::darkGray);
     if(debug){
         // draw raw fbo
         fbo.draw(fbo.getWidth()*10, 0,fbo.getWidth()*10,fbo.getHeight()*10);

@@ -3,6 +3,13 @@
 	<u_02>0</u_02>
 	<u_03>0</u_03>
 	<u_04>0</u_04>
-	<u_color>113, 63, 100, 255</u_color>
+	<u_color>255, 111, 115, 255</u_color>
 <group/>
+<amount>3.6</amount>
+	<speed>0</speed>
+	<color_correction>
+		<red_max>223</red_max>
+		<green_max>145</green_max>
+		<blue_max>94</blue_max>
+	</color_correction>
 </group>
