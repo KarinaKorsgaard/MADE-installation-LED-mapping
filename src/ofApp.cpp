@@ -3,15 +3,15 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-    for(int i = 0; i<5;i++){
+    for(int i = 0; i<30;i++){
         LEDstrip s;
-        s.num_leds = floorf(512/4);
+        s.num_leds = floorf(50);
         s.pos = ofPoint(i*20,0);
         s.rotation = 0;
         s.ip = "2.0.0.0";
         strips.push_back(s);
     }
-    fbo.allocate((floorf(512/4)*3 + 100*ledSpacing ) /10,  (floorf(512/4)*5 + floorf(512/4)*ledSpacing ) /10);
+    fbo.allocate((floorf(512/4)*3 + 170*ledSpacing ) /10,  (floorf(512/4)*5 + floorf(512/4)*ledSpacing ) /10);
     
     shader.load("glow");
     
@@ -30,7 +30,7 @@ void ofApp::setup(){
     gui.loadFromFile("settings.xml");
     
     // load led strip positions from xml
-    config.loadFile("config.xml");
+ /*   config.loadFile("config.xml");
     for(int i = 0; i<strips.size();i++){
         config.pushTag("strip"+ofToString(i));
         strips[i].pos.x = config.getValue("x", 0,0);
@@ -38,12 +38,14 @@ void ofApp::setup(){
         strips[i].rotation = config.getValue("rotation", 0,0);
         config.popTag();
     }
+	*/
     
     // setup osc sender
     sender.setup("localhost", 5000);
     
     
     debug = true;
+	ofSetFrameRate(1);
 }
 
 //--------------------------------------------------------------
@@ -80,14 +82,21 @@ void ofApp::update(){
     }
     
     // send osc messages:
+	int indx = 0;
     for(int i = 0;i<strips.size();i++){
-        ofxOscMessage m;
-        m.setAddress("strip"+ofToString(i));
-        for(int j = 0; j<512;j++){
-            m.addIntArg(strips[i].data[j]);
+       
+        for(int j = 0; j<strips[i].num_leds;j++){
+			ofxOscMessage m;
+			m.setAddress("/l" + ofToString(indx));
+			float brightness = (strips[i].data[j * 3] + strips[i].data[j * 3 + 1] + strips[i].data[j * 3 + 2]) / 3;
+            m.addIntArg(brightness);
+			//m.addIntArg(strips[i].data[j*3+1]);
+			//m.addIntArg(strips[i].data[j*3+2]);
+			sender.sendMessage(m);
+			m.clear();
+			indx++;
         }
-        sender.sendMessage(m);
-        m.clear();
+	//	cout << indx << endl;
     }
 }
 

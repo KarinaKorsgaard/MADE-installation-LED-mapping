@@ -1,4 +1,5 @@
+ofxArtnet
 ofxAutoReloadedShader
-ofxDmx
 ofxGui
 ofxOsc
+ofxXmlSettings
